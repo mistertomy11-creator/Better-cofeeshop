@@ -90,7 +90,34 @@
         </section>
       </main>
 
-      <footer class="footer">
+<section class="reservation">
+        <h2 class="reservation__title">Book a table</h2>
+        <form class="form reservation__form">
+        <fieldset class="form__fieldset">
+          <label for="presence" class="form__label">
+            Name *
+          <input id="presence" type="text" class="form__input" placeholder="Name Surname" required>
+          </label>
+          <label for="identity" class="form__label">
+            Number of guests *
+          <input id="identity" type="number" class="form__input" placeholder="1-8" required>
+          </label>
+          <label for="schedule" class="form__label">
+            Date & time *
+          <input id="schedule" type="datetime-local" class="form__input" required>
+          </label>
+          <label for="contacts" class="form__label">
+            Your email *
+          <input id="contacts" type="email" class="form__input" placeholder="email@email.com" required>
+          </label>
+        </fieldset>
+        <button type="submit" class="form__button">Book a Table </button>
+        <label for="terms-of-use" class="form__label form__label_type_checkbox">
+        <input id="terms-of-use" type="checkbox" class="form__checkbox" checked>
+        I agree with the terms of use</label>
+        </form>
+      </section>
+<footer class="footer">
         <div class="footer__content">
           <img src="./images/logo_coffeeshop_light.svg" alt="Triple Peaks Logo" class="footer__logo">
           <div>
