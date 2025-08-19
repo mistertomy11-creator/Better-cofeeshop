@@ -13,4 +13,5 @@ This is the second project of the fulltime Software Engineering program at Tripl
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Add your ideas here :all the @import url(); are located at the index.css.
+to improve the project there can be some small new challenges throughoout the projects.
